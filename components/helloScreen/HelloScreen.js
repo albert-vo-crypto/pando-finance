@@ -3,13 +3,18 @@ import { Button } from '../button/Button'
 
 import classes from './helloScreen.module.scss'
 
+import Web3 from 'web3'
+import stakingContract from '../../blockchain/mintTokenContract.js'
+import { useState, useEffect } from 'react'
+
 export function HelloScreen() {
   return (
     <div className={classes.wrapper}>
       <div className={classes.content}>
-        <h1>Lorem ipsum </h1>
-        <p>Pariatur quis est irure irure pariatur.</p>
+        <h1>Mint Token </h1>
+        <p>FORM</p>
         <Button>Raise</Button>
+        <Button>Mint Token</Button>
       </div>
       <ScrollAnimation
         animatePreScroll={true}
@@ -20,3 +25,4 @@ export function HelloScreen() {
     </div>
   )
 }
+

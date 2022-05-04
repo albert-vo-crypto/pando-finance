@@ -5,7 +5,7 @@
   "author": "miqueltrallero.c@gmail.com",
   "homepage": ".",
   "engines": {
-    "node": "14.17.3"
+    "node": "14.19.1"
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
@@ -30,9 +30,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
