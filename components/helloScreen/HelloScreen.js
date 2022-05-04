@@ -40,7 +40,7 @@ export function HelloScreen() {
           </tr>
           </table>
 
-        <Button>Mint NFT</Button><Button>Put NFT on Sale</Button><Button>Pay NFT Royalty</Button>
+        <Button>Mint NFT</Button>
         </form>
 
       <ScrollAnimation
