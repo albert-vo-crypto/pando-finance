@@ -16,7 +16,7 @@ using Counters for Counters.Counter;
 	 
 	 string _uri;
 	 
-    constructor(address _minter,string memory _metadataURI) ERC721("Pando Finance NFT", "PNDNFT") 	 {
+    constructor(address _minter,string memory _metadataURI) ERC721("Pando NFT", "PNDNFT") 	 {
 		minter = _minter;
         _uri = _metadataURI;
 	

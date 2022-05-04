@@ -4,7 +4,7 @@
 
 const mintTokenContract = web3 => {
     return new web3.eth.Contract(
-        abi, "0x1c4BD1FFE801AdB274d230F4CD6A821637BA1d78"
+        abi, "0xd9145CCE52D386f254917e481eB44e9943F39138"
     )
 }
 
