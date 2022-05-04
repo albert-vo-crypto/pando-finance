@@ -1,0 +1,117 @@
+{
+  "contractName": "NFTtest",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/NFTtest.sol\":\"NFTtest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/NFTtest.sol\":{\"keccak256\":\"0xe46b5494a6f83039303a4da59f3a7fd923090f22c19f090061fc61d2eaff08c4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f53d8d50cab2fce4d8a3a398e086aac605938b4fa22c901c667d09dfb35dc078\",\"dweb:/ipfs/QmNX4U5xRFfrnAEKFSZCMLwsv3GU497g4P4dw6wX8BfLsx\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208860c0114435d6cb93d8b8d5518019ef4772f82dadf770dbadc953b3fff8a7d364736f6c63430008090033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208860c0114435d6cb93d8b8d5518019ef4772f82dadf770dbadc953b3fff8a7d364736f6c63430008090033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:49:0:-:0;;;87:26;;;;;;;;;;66:49;;;;;;",
+  "deployedSourceMap": "66:49:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract NFTtest {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/home/avo/ROYALTIES/pando-finance/contracts/NFTtest.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/NFTtest.sol",
+    "exportedSymbols": {
+      "NFTtest": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "NFTtest",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "NFTtest",
+        "nameLocation": "75:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "108:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "98:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "108:0:0"
+            },
+            "scope": 6,
+            "src": "87:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:49:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:84:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-04-30T15:40:24.733Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
