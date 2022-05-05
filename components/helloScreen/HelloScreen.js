@@ -8,23 +8,23 @@ import mintTokenContract from '../../blockchain/mintTokenContract.js'
 import { useState, useEffect } from 'react'
 
 
+
+
 export function HelloScreen() {
+
   return (
     <div className={classes.wrapper}>
       <div className={classes.content}>
         <h1>Mint NFT</h1>
-
-        
         <form id="theForm">
-
         <table>         
           <tr>
             <td align="left">NFT Creator Wallet Address</td>
-            <td><input type="text" id="creatorWalletAddress" value="0x417bC635C793E77F8C67D2e3a1392Ba1d85EeE90"  size="40" /></td>
+            <td><input type="text" id="creatorWalletAddress" value=""  size="40" /></td>
           </tr>
           <tr>
           <td align="left">NFT URI:</td>
-          <td><input type="text" id="NFT Token URI" value="https://bafkreibhq5zp35annocagolnma3nzxyliymqrnjv7iufmw2ug2qduhsbjq.ipfs.nftstorage.link"  size="40" /></td>
+          <td><input type="text" id="NFT Token URI" value=""  size="40" /></td>
           </tr>
           <tr>
           <td align="left">NFT ID:</td>
@@ -39,7 +39,6 @@ export function HelloScreen() {
           <td><input type="text" id="Royalty" value="0.1 ETH"  size="40" /></td>
           </tr>
           </table>
-
         <Button>Mint NFT</Button>
         </form>
 
