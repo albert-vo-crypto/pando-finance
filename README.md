@@ -10,7 +10,7 @@ It connects participants who deploy capital ("Buyers") with entities that contro
 - [**Slide Deck**](./doc/pdf/) describes the project.
 - [**YouTube Video**]() is the demo video for the hackathon.
 
-### TILE Games Main Window
+### Pando Finance Main Window
 
 ![Main Window](./doc/img/TILE_Games_Main_Window.png)
 
