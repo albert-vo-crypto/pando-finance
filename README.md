@@ -9,7 +9,7 @@ It connects participants who deploy capital ("Buyers") with entities that contro
 
 
 ## Pando Finance Project Team
-Our team consists of finfance, technologists and developers, creating value through innovation.
+Our team consists of DeFi developers who are creating value through innovation.
 
 ## Product Developer
 Maximilien Le Sieur \
