@@ -1,5 +1,40 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Pando Finance
+Pando Finance is a marketplace for future smart contract revenue.
+It connects participants who deploy capital ("Buyers") with entities that control a wallet address that receives regular smart contract-generated on-chain payments ("Sellers").
+
+![image](https://user-images.githubusercontent.com/100101844/170694279-e2886d3f-51c1-4dc8-be6f-c67103cdeb3f.png)
+
+
+
+## Pando Finance Project Team
+Our team consists of finfance, technologists and developers, creating value through innovation.
+
+## Product Developer
+Maximilien Le Sieur
+HARVARD BUSINESS SCHOOL
+MBA, Class of 2022
+https://www.linkedin.com/in/maximilien-le-sieur/
+![image](https://user-images.githubusercontent.com/100101844/170694637-4279e0ff-703e-49d5-89e1-1e832e46937d.png)
+
+
+## Smart Contract Developer
+Albert Vo
+[https://github.com/Wilson-Wu1](https://github.com/albert-vo-crypto)
+![image](https://user-images.githubusercontent.com/100101844/170693383-f8e31532-9c25-46bb-8240-77f9b037b453.png)
+
+## Front End Developer
+Maria Mironova
+https://github.com/webstalt
+![image](https://user-images.githubusercontent.com/100101844/170693076-c163a04f-fec2-4bbb-be1a-a9f90e55aec7.png)
+
+## Smart Contract Developer
+Wilson Wu
+https://github.com/Wilson-Wu1
+![image](https://user-images.githubusercontent.com/100101844/170693408-aa396f35-189a-4152-981d-0e0b25684804.png)
+
+
 ## Getting Started
 
 First, run the development server:
