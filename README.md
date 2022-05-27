@@ -21,12 +21,12 @@ Albert Vo
 ## Front End Developer
 Maria Mironova
 https://github.com/webstalt
-![image](https://user-images.githubusercontent.com/100101844/170693408-aa396f35-189a-4152-981d-0e0b25684804.png)
+![image](https://user-images.githubusercontent.com/100101844/170693076-c163a04f-fec2-4bbb-be1a-a9f90e55aec7.png)
 
 ## Smart Contract Developer
 Wilson Wu
 https://github.com/Wilson-Wu1
-![image](https://user-images.githubusercontent.com/100101844/170693076-c163a04f-fec2-4bbb-be1a-a9f90e55aec7.png)
+![image](https://user-images.githubusercontent.com/100101844/170693408-aa396f35-189a-4152-981d-0e0b25684804.png)
 
 
 ## Getting Started
