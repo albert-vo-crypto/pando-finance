@@ -4,7 +4,12 @@ It connects participants who deploy capital ("Buyers") with entities that contro
 
 ![image](https://user-images.githubusercontent.com/100101844/170694279-e2886d3f-51c1-4dc8-be6f-c67103cdeb3f.png)
 
-
+# START HERE:
+Pando Finance is running live on the cloud.
+Documentation describes the project and the dapp in detail.
+Slide Deck describes the project.
+YouTube Video is the demo video for the hackathon.
+Pando Finance Main Window
 
 ## Pando Finance Project Team
 Our team consists of DeFi developers who are creating value through innovation.
