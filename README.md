@@ -16,16 +16,15 @@ MBA, Class of 2022 \
 https://www.linkedin.com/in/maximilien-le-sieur/ \
 ![image](https://user-images.githubusercontent.com/100101844/170694637-4279e0ff-703e-49d5-89e1-1e832e46937d.png) \
 
+## Front End Developer
+Maria Mironova \
+https://github.com/webstalt \
+![image](https://user-images.githubusercontent.com/100101844/170693076-c163a04f-fec2-4bbb-be1a-a9f90e55aec7.png) \
 
 ## Smart Contract Developer
 Albert Vo \
 https://github.com/albert-vo-crypto \
 ![image](https://user-images.githubusercontent.com/100101844/170693383-f8e31532-9c25-46bb-8240-77f9b037b453.png) \
-
-## Front End Developer
-Maria Mironova \
-https://github.com/webstalt \
-![image](https://user-images.githubusercontent.com/100101844/170693076-c163a04f-fec2-4bbb-be1a-a9f90e55aec7.png) \
 
 ## Smart Contract Developer
 Wilson Wu \
