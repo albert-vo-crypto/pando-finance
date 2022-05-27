@@ -4,9 +4,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Pando Finance is a marketplace for future smart contract revenue.
 It connects participants who deploy capital ("Buyers") with entities that control a wallet address that receives regular smart contract-generated on-chain payments ("Sellers").
 
+![image](https://user-images.githubusercontent.com/100101844/170694279-e2886d3f-51c1-4dc8-be6f-c67103cdeb3f.png)
+
+
 
 ## Pando Finance Project Team
-Our team consists of professionals from varying backgrounds, united with the ethos of creating value through innovation.
+Our team consists of finfance, technologists and developers, creating value through innovation.
 
 ## Product Developer
 Maximilien Le Sieur
