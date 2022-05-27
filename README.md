@@ -1,5 +1,3 @@
-
-
 # Pando Finance
 Pando Finance is a marketplace for future smart contract revenue.
 It connects participants who deploy capital ("Buyers") with entities that control a wallet address that receives regular smart contract-generated on-chain payments ("Sellers").
