@@ -261,9 +261,9 @@ export const requestConversion = createAsyncThunk(
       ])
 
       return {
-        eth: resultEthUsd,
-        btc: resultBtcUsd,
-        eur: resultEurUsd,
+        eth: (resultEthUsd/1e8).toFixed(2),
+        btc: (resultBtcUsd/1e8).toFixed(2),
+        eur: (resultEurUsd/1e8).toFixed(2),
       }
     } catch (err) {
       console.log(err)
