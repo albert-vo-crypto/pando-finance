@@ -104,7 +104,7 @@ export const createEscrow = createAsyncThunk(
         })
       console.log(result, 'createEscrow')
       const transactionLink =
-      'https://rinkeby.etherscan.io/tx/' + result.transactionHash
+        'https://rinkeby.etherscan.io/tx/' + result.transactionHash
       console.log(transactionLink)
       alert('NFT Listing Successful: ' + transactionLink)
 
@@ -230,21 +230,46 @@ export const requestConversion = createAsyncThunk(
       await window.web3.currentProvider.enable()
       const web3 = new Web3(window.ethereum)
 
-      const resultEthUsd = await state.user.chainlinkVMContract.methods.getEthUsd().call()
-      const resultBtcUsd = await state.user.chainlinkVMContract.methods.getBtcUsd().call()
-      const resultEurUsd = await state.user.chainlinkVMContract.methods.getEurUsd().call()
-      //console.log(resultEthUsd + ' getEthUsd call ')
-      //console.log(resultBtcUsd + ' getBtcUsd call ')
-      //console.log(resultEurUsd + ' getEurUsd call ')
+      const getEthUsd = () =>
+        new Promise((resolve) =>
+          state.user.chainlinkVMContract.methods
+            .getEthUsd()
+            .call()
+            .then((res) => resolve(res))
+        )
 
-      return {resultEthUsd, resultBtcUsd, resultEurUsd}
+      const getBtcUsd = () =>
+        new Promise((resolve) =>
+          state.user.chainlinkVMContract.methods
+            .getBtcUsd()
+            .call()
+            .then((res) => resolve(res))
+        )
+
+      const getEurUsd = () =>
+        new Promise((resolve) =>
+          state.user.chainlinkVMContract.methods
+            .getEurUsd()
+            .call()
+            .then((res) => resolve(res))
+        )
+
+      const [resultEthUsd, resultBtcUsd, resultEurUsd] = await Promise.all([
+        getEthUsd(),
+        getBtcUsd(),
+        getEurUsd(),
+      ])
+
+      return {
+        eth: resultEthUsd,
+        btc: resultBtcUsd,
+        eur: resultEurUsd,
+      }
     } catch (err) {
       console.log(err)
     }
   }
 )
-
-
 
 export const userSlice = createSlice({
   name: 'user',
