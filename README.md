@@ -15,6 +15,9 @@ Our team consists of finfance, technologists and developers, creating value thro
 Maximilien Le Sieur
 HARVARD BUSINESS SCHOOL
 MBA, Class of 2022
+https://www.linkedin.com/in/maximilien-le-sieur/
+![image](https://user-images.githubusercontent.com/100101844/170694637-4279e0ff-703e-49d5-89e1-1e832e46937d.png)
+
 
 ## Smart Contract Developer
 Albert Vo
